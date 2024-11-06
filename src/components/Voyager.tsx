@@ -115,7 +115,7 @@ export default function Voyager(props: VoyagerProps) {
   });
 
   const {
-    allowToChangeSchema = false,
+    allowToChangeSchema = true,
     hideDocs = false,
     hideSettings = false,
     // TODO: switch to false in the next major version
