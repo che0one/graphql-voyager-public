@@ -14,7 +14,12 @@ app.use(
     endpointUrl: '/graphql',
     displayOptions: {
       sortByAlphabet: true,
+      skipRelay: false,
+      skipDeprecated: false,
+      showLeafFields: true
     },
+    allowToChangeSchema: true,
+    hideVoyagerLogo: true
   }),
 );
 
